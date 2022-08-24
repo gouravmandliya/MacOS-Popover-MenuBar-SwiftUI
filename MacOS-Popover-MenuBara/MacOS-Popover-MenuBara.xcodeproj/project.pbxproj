@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		360416DB28B6072200FFE96F /* MacOS_Popover_MenuBaraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360416DA28B6072200FFE96F /* MacOS_Popover_MenuBaraApp.swift */; };
+		360416DD28B6072200FFE96F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360416DC28B6072200FFE96F /* ContentView.swift */; };
+		360416DF28B6072600FFE96F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 360416DE28B6072600FFE96F /* Assets.xcassets */; };
+		360416E228B6072600FFE96F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 360416E128B6072600FFE96F /* Preview Assets.xcassets */; };
+		360416ED28B6072600FFE96F /* MacOS_Popover_MenuBaraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360416EC28B6072600FFE96F /* MacOS_Popover_MenuBaraTests.swift */; };
+		360416F728B6072600FFE96F /* MacOS_Popover_MenuBaraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360416F628B6072600FFE96F /* MacOS_Popover_MenuBaraUITests.swift */; };
+		360416F928B6072600FFE96F /* MacOS_Popover_MenuBaraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360416F828B6072600FFE96F /* MacOS_Popover_MenuBaraUITestsLaunchTests.swift */; };
+		3604170728B6079C00FFE96F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3604170628B6079C00FFE96F /* MenuView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		360416E928B6072600FFE96F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 360416CF28B6072200FFE96F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 360416D628B6072200FFE96F;
+			remoteInfo = "MacOS-Popover-MenuBara";
+		};
+		360416F328B6072600FFE96F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 360416CF28B6072200FFE96F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 360416D628B6072200FFE96F;
+			remoteInfo = "MacOS-Popover-MenuBara";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		360416D728B6072200FFE96F /* MacOS-Popover-MenuBara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacOS-Popover-MenuBara.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		360416DA28B6072200FFE96F /* MacOS_Popover_MenuBaraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOS_Popover_MenuBaraApp.swift; sourceTree = "<group>"; };
+		360416DC28B6072200FFE96F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		360416DE28B6072600FFE96F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		360416E128B6072600FFE96F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		360416E328B6072600FFE96F /* MacOS_Popover_MenuBara.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacOS_Popover_MenuBara.entitlements; sourceTree = "<group>"; };
+		360416E828B6072600FFE96F /* MacOS-Popover-MenuBaraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MacOS-Popover-MenuBaraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		360416EC28B6072600FFE96F /* MacOS_Popover_MenuBaraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOS_Popover_MenuBaraTests.swift; sourceTree = "<group>"; };
+		360416F228B6072600FFE96F /* MacOS-Popover-MenuBaraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MacOS-Popover-MenuBaraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		360416F628B6072600FFE96F /* MacOS_Popover_MenuBaraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOS_Popover_MenuBaraUITests.swift; sourceTree = "<group>"; };
+		360416F828B6072600FFE96F /* MacOS_Popover_MenuBaraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOS_Popover_MenuBaraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3604170628B6079C00FFE96F /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		360416D428B6072200FFE96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360416E528B6072600FFE96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360416EF28B6072600FFE96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		360416CE28B6072200FFE96F = {
+			isa = PBXGroup;
+			children = (
+				360416D928B6072200FFE96F /* MacOS-Popover-MenuBara */,
+				360416EB28B6072600FFE96F /* MacOS-Popover-MenuBaraTests */,
+				360416F528B6072600FFE96F /* MacOS-Popover-MenuBaraUITests */,
+				360416D828B6072200FFE96F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		360416D828B6072200FFE96F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				360416D728B6072200FFE96F /* MacOS-Popover-MenuBara.app */,
+				360416E828B6072600FFE96F /* MacOS-Popover-MenuBaraTests.xctest */,
+				360416F228B6072600FFE96F /* MacOS-Popover-MenuBaraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		360416D928B6072200FFE96F /* MacOS-Popover-MenuBara */ = {
+			isa = PBXGroup;
+			children = (
+				3604170528B6078B00FFE96F /* View */,
+				360416DA28B6072200FFE96F /* MacOS_Popover_MenuBaraApp.swift */,
+				360416DC28B6072200FFE96F /* ContentView.swift */,
+				360416DE28B6072600FFE96F /* Assets.xcassets */,
+				360416E328B6072600FFE96F /* MacOS_Popover_MenuBara.entitlements */,
+				360416E028B6072600FFE96F /* Preview Content */,
+			);
+			path = "MacOS-Popover-MenuBara";
+			sourceTree = "<group>";
+		};
+		360416E028B6072600FFE96F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				360416E128B6072600FFE96F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		360416EB28B6072600FFE96F /* MacOS-Popover-MenuBaraTests */ = {
+			isa = PBXGroup;
+			children = (
+				360416EC28B6072600FFE96F /* MacOS_Popover_MenuBaraTests.swift */,
+			);
+			path = "MacOS-Popover-MenuBaraTests";
+			sourceTree = "<group>";
+		};
+		360416F528B6072600FFE96F /* MacOS-Popover-MenuBaraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				360416F628B6072600FFE96F /* MacOS_Popover_MenuBaraUITests.swift */,
+				360416F828B6072600FFE96F /* MacOS_Popover_MenuBaraUITestsLaunchTests.swift */,
+			);
+			path = "MacOS-Popover-MenuBaraUITests";
+			sourceTree = "<group>";
+		};
+		3604170528B6078B00FFE96F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3604170628B6079C00FFE96F /* MenuView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		360416D628B6072200FFE96F /* MacOS-Popover-MenuBara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 360416FC28B6072600FFE96F /* Build configuration list for PBXNativeTarget "MacOS-Popover-MenuBara" */;
+			buildPhases = (
+				360416D328B6072200FFE96F /* Sources */,
+				360416D428B6072200FFE96F /* Frameworks */,
+				360416D528B6072200FFE96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MacOS-Popover-MenuBara";
+			productName = "MacOS-Popover-MenuBara";
+			productReference = 360416D728B6072200FFE96F /* MacOS-Popover-MenuBara.app */;
+			productType = "com.apple.product-type.application";
+		};
+		360416E728B6072600FFE96F /* MacOS-Popover-MenuBaraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 360416FF28B6072600FFE96F /* Build configuration list for PBXNativeTarget "MacOS-Popover-MenuBaraTests" */;
+			buildPhases = (
+				360416E428B6072600FFE96F /* Sources */,
+				360416E528B6072600FFE96F /* Frameworks */,
+				360416E628B6072600FFE96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				360416EA28B6072600FFE96F /* PBXTargetDependency */,
+			);
+			name = "MacOS-Popover-MenuBaraTests";
+			productName = "MacOS-Popover-MenuBaraTests";
+			productReference = 360416E828B6072600FFE96F /* MacOS-Popover-MenuBaraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		360416F128B6072600FFE96F /* MacOS-Popover-MenuBaraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3604170228B6072600FFE96F /* Build configuration list for PBXNativeTarget "MacOS-Popover-MenuBaraUITests" */;
+			buildPhases = (
+				360416EE28B6072600FFE96F /* Sources */,
+				360416EF28B6072600FFE96F /* Frameworks */,
+				360416F028B6072600FFE96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				360416F428B6072600FFE96F /* PBXTargetDependency */,
+			);
+			name = "MacOS-Popover-MenuBaraUITests";
+			productName = "MacOS-Popover-MenuBaraUITests";
+			productReference = 360416F228B6072600FFE96F /* MacOS-Popover-MenuBaraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		360416CF28B6072200FFE96F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					360416D628B6072200FFE96F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					360416E728B6072600FFE96F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 360416D628B6072200FFE96F;
+					};
+					360416F128B6072600FFE96F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 360416D628B6072200FFE96F;
+					};
+				};
+			};
+			buildConfigurationList = 360416D228B6072200FFE96F /* Build configuration list for PBXProject "MacOS-Popover-MenuBara" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 360416CE28B6072200FFE96F;
+			productRefGroup = 360416D828B6072200FFE96F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				360416D628B6072200FFE96F /* MacOS-Popover-MenuBara */,
+				360416E728B6072600FFE96F /* MacOS-Popover-MenuBaraTests */,
+				360416F128B6072600FFE96F /* MacOS-Popover-MenuBaraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		360416D528B6072200FFE96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360416E228B6072600FFE96F /* Preview Assets.xcassets in Resources */,
+				360416DF28B6072600FFE96F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360416E628B6072600FFE96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360416F028B6072600FFE96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		360416D328B6072200FFE96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360416DD28B6072200FFE96F /* ContentView.swift in Sources */,
+				3604170728B6079C00FFE96F /* MenuView.swift in Sources */,
+				360416DB28B6072200FFE96F /* MacOS_Popover_MenuBaraApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360416E428B6072600FFE96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360416ED28B6072600FFE96F /* MacOS_Popover_MenuBaraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360416EE28B6072600FFE96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360416F728B6072600FFE96F /* MacOS_Popover_MenuBaraUITests.swift in Sources */,
+				360416F928B6072600FFE96F /* MacOS_Popover_MenuBaraUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		360416EA28B6072600FFE96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 360416D628B6072200FFE96F /* MacOS-Popover-MenuBara */;
+			targetProxy = 360416E928B6072600FFE96F /* PBXContainerItemProxy */;
+		};
+		360416F428B6072600FFE96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 360416D628B6072200FFE96F /* MacOS-Popover-MenuBara */;
+			targetProxy = 360416F328B6072600FFE96F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		360416FA28B6072600FFE96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		360416FB28B6072600FFE96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		360416FD28B6072600FFE96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MacOS-Popover-MenuBara/MacOS_Popover_MenuBara.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacOS-Popover-MenuBara/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gourav.MacOS-Popover-MenuBara";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		360416FE28B6072600FFE96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MacOS-Popover-MenuBara/MacOS_Popover_MenuBara.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacOS-Popover-MenuBara/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gourav.MacOS-Popover-MenuBara";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3604170028B6072600FFE96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gourav.MacOS-Popover-MenuBaraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacOS-Popover-MenuBara.app/Contents/MacOS/MacOS-Popover-MenuBara";
+			};
+			name = Debug;
+		};
+		3604170128B6072600FFE96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gourav.MacOS-Popover-MenuBaraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacOS-Popover-MenuBara.app/Contents/MacOS/MacOS-Popover-MenuBara";
+			};
+			name = Release;
+		};
+		3604170328B6072600FFE96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gourav.MacOS-Popover-MenuBaraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "MacOS-Popover-MenuBara";
+			};
+			name = Debug;
+		};
+		3604170428B6072600FFE96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gourav.MacOS-Popover-MenuBaraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "MacOS-Popover-MenuBara";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		360416D228B6072200FFE96F /* Build configuration list for PBXProject "MacOS-Popover-MenuBara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360416FA28B6072600FFE96F /* Debug */,
+				360416FB28B6072600FFE96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		360416FC28B6072600FFE96F /* Build configuration list for PBXNativeTarget "MacOS-Popover-MenuBara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360416FD28B6072600FFE96F /* Debug */,
+				360416FE28B6072600FFE96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		360416FF28B6072600FFE96F /* Build configuration list for PBXNativeTarget "MacOS-Popover-MenuBaraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3604170028B6072600FFE96F /* Debug */,
+				3604170128B6072600FFE96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3604170228B6072600FFE96F /* Build configuration list for PBXNativeTarget "MacOS-Popover-MenuBaraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3604170328B6072600FFE96F /* Debug */,
+				3604170428B6072600FFE96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 360416CF28B6072200FFE96F /* Project object */;
+}
